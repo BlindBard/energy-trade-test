@@ -240,21 +240,24 @@ a:hover {
   background: url("../images/btn-bg.png") no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 20px 56px 17px 50px;
+  padding: 10px 56px 8px 50px;
   border-radius: 50px;
   color: #fff; }
   /* line 30, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_header.scss */
   .call-btn p {
-    font-size: 18px;
-    line-height: 20px; }
+    font-size: 12px;
+    line-height: 16px; }
   /* line 34, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_header.scss */
   .call-btn .tel {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 20px;
     padding-top: 5px; }
+    /* line 38, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_header.scss */
+    .call-btn .tel a {
+      color: #fff; }
 
 @media screen and (max-width: 1440px) {
-  /* line 42, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_header.scss */
+  /* line 43, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_header.scss */
   .header {
     padding-bottom: 100px; } }
 /* line 1, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_sub-header.scss */
