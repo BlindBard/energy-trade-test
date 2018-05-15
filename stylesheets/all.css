@@ -348,7 +348,7 @@ a:hover {
     padding: 55px 0; } }
 /* line 1, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .top {
-  background: url("../images/top-bg.png") no-repeat;
+  background: url("../images/top-bg.jpg") no-repeat;
   background-position: top center;
   background-size: cover;
   padding-top: 40px; }
@@ -454,7 +454,7 @@ a:hover {
 
 /* line 105, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .tariffs {
-  padding-bottom: 315px; }
+  padding-bottom: 100px; }
   /* line 107, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .tariffs__item {
     display: inline-block;
@@ -563,11 +563,18 @@ a:hover {
     height: 25px; }
 
 /* line 207, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+.gas-tariffs {
+  padding-bottom: 200px; }
+  /* line 211, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  .gas-tariffs li:nth-child(3) .page {
+    padding: 178px 0 0 30px; }
+
+/* line 216, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .advantages {
   position: relative;
   margin-top: 150px;
   margin-bottom: 150px; }
-  /* line 213, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 222, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .advantages .advantages-bg {
     position: absolute;
     left: 50%;
@@ -578,24 +585,24 @@ a:hover {
     width: 100%;
     height: 771px; }
 
-/* line 225, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 234, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .circle-container {
   margin-top: -40px; }
 
-/* line 227, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 236, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .circle-img {
   position: relative;
   max-width: 684px;
   margin: 0 auto;
   text-align: center;
   padding: 44px 0 44px; }
-  /* line 228, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 237, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .visible {
     display: block; }
-  /* line 229, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 238, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .hide {
     display: none; }
-  /* line 235, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 244, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .business-card {
     position: absolute;
     top: 50%;
@@ -606,51 +613,51 @@ a:hover {
     background-size: cover;
     width: 557px;
     height: 398px; }
-  /* line 246, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 255, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text {
     position: absolute; }
-    /* line 248, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 257, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-01 {
       left: 50%;
       bottom: 100%;
       transform: translateX(-50%);
       margin-bottom: 15px; }
-    /* line 254, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 263, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-02 {
       top: 198px;
       left: 100%;
       width: 310px;
       text-align: left;
       margin-left: 22px; }
-    /* line 261, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 270, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-03 {
       top: 462px;
       left: 100%;
       width: 240px;
       text-align: left;
       margin-left: 52px; }
-    /* line 268, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 277, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-04 {
       top: 664px;
       left: 100%;
       width: 100%;
       text-align: left;
       margin-left: -100px; }
-    /* line 275, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 284, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-05 {
       top: 664px;
       right: 100%;
       width: 100%;
       text-align: right;
       margin-right: -114px; }
-    /* line 282, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 291, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-06 {
       top: 462px;
       right: 100%;
       width: 100%;
       text-align: right;
       margin-right: 50px; }
-    /* line 289, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 298, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .advantages-text.text-07 {
       top: 198px;
       right: 100%;
@@ -658,23 +665,23 @@ a:hover {
       text-align: right;
       margin-right: 20px; }
 
-/* line 299, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 308, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .documents-list {
   padding: 80px 100px 20px; }
-  /* line 301, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 310, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .documents-list__item {
     position: relative;
     max-width: 640px;
     padding: 5px 100px 0 30px;
     margin: 15px 0;
     text-decoration: underline; }
-    /* line 307, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 316, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .documents-list__item a {
       color: #30303f; }
-    /* line 308, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 317, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .documents-list__item:hover {
       text-decoration: none; }
-    /* line 309, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 318, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .documents-list__item .file-ico {
       display: block;
       position: absolute;
@@ -686,36 +693,36 @@ a:hover {
       width: 20px;
       height: 25px; }
 
-/* line 337, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 346, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .accordion {
   padding: 0 100px 100px; }
-  /* line 339, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 348, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .accordion .inner {
     overflow: hidden;
     display: none; }
-    /* line 342, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 351, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .accordion .inner p {
       line-height: 20px;
       font-size: 14px;
       padding: 30px 0 0 20px; }
-      /* line 346, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 355, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .accordion .inner p a {
         color: #484848;
         text-decoration: underline; }
-    /* line 351, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 360, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .accordion .inner .ac-list {
       padding: 30px 370px 20px 100px;
       border-bottom: 2px solid #8a8a8a; }
-  /* line 356, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 365, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .accordion li {
     position: relative; }
-    /* line 358, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 367, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .accordion li h4 {
       max-width: 850px;
       font-size: 20px;
       line-height: 24px;
       color: #30303f; }
-    /* line 364, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 373, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .accordion li a.toggle {
       display: block;
       position: relative;
@@ -724,21 +731,21 @@ a:hover {
       z-index: 20;
       color: #484848;
       cursor: pointer; }
-      /* line 372, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 381, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .accordion li a.toggle:hover {
         color: #484848;
         border-bottom: 2px solid #484848; }
-      /* line 376, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 385, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .accordion li a.toggle.active {
         color: #484848;
         border-bottom: 2px solid #484848; }
-        /* line 379, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+        /* line 388, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
         .accordion li a.toggle.active .cross {
           background: #484848; }
-          /* line 381, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+          /* line 390, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
           .accordion li a.toggle.active .cross::after {
             display: none; }
-    /* line 385, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 394, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .accordion li .cross {
       position: absolute;
       top: 50%;
@@ -747,7 +754,7 @@ a:hover {
       background: #8a8a8a;
       width: 14px;
       height: 2px; }
-      /* line 393, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 402, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .accordion li .cross::after {
         content: "";
         position: absolute;
@@ -757,14 +764,14 @@ a:hover {
         width: 2px;
         height: 14px; }
 
-/* line 406, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 415, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .map {
   background: #eeeeed;
   padding-top: 30px; }
-  /* line 409, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 418, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .map .example-map {
     position: relative; }
-    /* line 411, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 420, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .map .example-map h4 {
       position: absolute;
       top: 50%;
@@ -773,7 +780,7 @@ a:hover {
       font-size: 36px;
       line-height: 40px;
       color: #ff8b00; }
-    /* line 420, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 429, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .map .example-map .shadow {
       position: absolute;
       top: 0;
@@ -785,37 +792,37 @@ a:hover {
       background: #000;
       opacity: .5; }
 
-/* line 434, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 443, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .contacts {
   background: url("../images/contacts-bg.png") no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 90px 0 180px; }
-  /* line 440, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 449, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .contacts .left-col img {
     padding-left: 80px; }
-  /* line 443, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 452, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .contacts .main-heading h4 {
     color: #fff; }
 
-/* line 447, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 456, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .region-name {
   padding: 40px 0 60px; }
-  /* line 449, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 458, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .region-name .region {
     display: block;
     font-size: 30px;
     line-height: 30px;
     color: #fa8d00;
     padding-bottom: 30px; }
-  /* line 456, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 465, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .region-name .chapter {
     display: block;
     font-size: 24px;
     line-height: 30px;
     color: #fff; }
 
-/* line 464, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 473, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .address,
 .call-center,
 .work-schedule {
@@ -824,121 +831,121 @@ a:hover {
   width: 33.3333%;
   min-width: 375px; }
 
-/* line 474, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 483, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .info-block span {
   font-size: 18px;
   line-height: 20px;
   color: #9692c1; }
-/* line 479, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 488, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .info-block p, .info-block a {
   font-size: 18px;
   line-height: 20px;
   color: #fff; }
-/* line 484, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 493, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .info-block p {
   padding-bottom: 15px; }
-/* line 485, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 494, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .info-block a {
   display: inline-block; }
 
-/* line 488, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+/* line 497, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
 .ico-contacts {
   position: absolute;
   top: 0;
   left: 0;
   width: 57px;
   height: 57px; }
-  /* line 494, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 503, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .ico-contacts.address-ico {
     background: url("../images/address-ico.png") no-repeat;
     background-position: center center;
     background-size: cover; }
-  /* line 499, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 508, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .ico-contacts.call-center-ico {
     background: url("../images/call-center.png") no-repeat;
     background-position: center center;
     background-size: cover; }
-  /* line 504, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 513, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .ico-contacts.work-schedule-ico {
     background: url("../images/work-schedule.png") no-repeat;
     background-position: center center;
     background-size: cover; }
 
 @media screen and (max-width: 1440px) {
-  /* line 512, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 521, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .regulations-license {
     padding-bottom: 100px; }
 
-  /* line 513, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 522, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .tariffs {
     padding-bottom: 100px; }
 
-  /* line 514, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 523, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .address,
   .call-center,
   .work-schedule {
     min-width: 320px; } }
 @media screen and (max-width: 1366px) {
-  /* line 524, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 533, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text.text-02 {
     left: 97%;
     margin-left: 0; }
-  /* line 528, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 537, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text.text-03 {
     margin-left: 22px; }
-  /* line 529, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 538, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text.text-04 {
     margin-left: -130px; }
-  /* line 530, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 539, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text.text-05 {
     margin-right: -130px; }
-  /* line 531, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 540, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text.text-06 {
     margin-right: 20px; }
-  /* line 532, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 541, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img .advantages-text.text-07 {
     margin-right: 0; }
 
-  /* line 535, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 544, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .contacts {
     padding: 90px 0 90px; }
-    /* line 538, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 547, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .contacts .left-col img {
       padding-left: 0; }
 
-  /* line 541, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 550, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .address,
   .call-center,
   .work-schedule {
     min-width: 300px; } }
 @media screen and (max-width: 1280px) {
-  /* line 549, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 558, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-container {
     margin-top: 0; }
 
-  /* line 550, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 559, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .circle-img {
     max-width: 100%;
     padding: 86px 0 227px; }
-    /* line 553, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 562, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .visible {
       display: none; }
-    /* line 554, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 563, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .circle-img .business-card {
       top: 7%;
       left: 12%;
       transform: none; }
 
-  /* line 560, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 569, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .advantages-text-container {
     max-width: 440px;
     margin-right: 70px;
     float: right; }
-    /* line 564, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 573, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .advantages-text-container .advantages-text {
       position: relative;
       padding: 12px 0 12px 20px; }
-      /* line 567, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 576, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text::before {
         content: '';
         display: block;
@@ -949,49 +956,49 @@ a:hover {
         width: 5px;
         height: 5px;
         border-radius: 50%; }
-      /* line 578, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 587, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-01 {
         left: auto;
         bottom: auto;
         transform: none;
         text-align: left;
         margin-bottom: 0; }
-      /* line 585, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 594, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-02 {
         top: auto;
         left: auto;
         width: auto;
         text-align: left;
         margin-left: 0; }
-      /* line 592, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 601, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-03 {
         top: auto;
         left: auto;
         width: auto;
         text-align: left;
         margin-left: 0; }
-      /* line 599, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 608, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-04 {
         top: auto;
         left: auto;
         width: auto;
         text-align: left;
         margin-left: 0; }
-      /* line 606, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 615, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-05 {
         top: auto;
         right: auto;
         width: auto;
         text-align: left;
         margin-right: 0; }
-      /* line 613, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 622, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-06 {
         top: auto;
         right: auto;
         width: auto;
         text-align: left;
         margin-right: 0; }
-      /* line 620, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+      /* line 629, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
       .advantages-text-container .advantages-text.text-07 {
         top: auto;
         right: auto;
@@ -999,7 +1006,7 @@ a:hover {
         text-align: left;
         margin-right: 0; }
 
-  /* line 629, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+  /* line 638, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
   .advantages {
     position: relative;
     margin-top: 0;
@@ -1007,10 +1014,10 @@ a:hover {
     background: url("../images/advantages-bg-1280.png") no-repeat;
     background-position: top center;
     background-size: cover; }
-    /* line 636, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 645, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .advantages .main-heading {
       padding-top: 50px; }
-    /* line 637, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
+    /* line 646, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_index.scss */
     .advantages .advantages-bg {
       display: none; } }
 /* line 1, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_tariffs.scss */
@@ -1269,3 +1276,11 @@ a:hover {
       height: 3px;
       border-radius: 0 3px 3px 0;
       background: #2c363e; }
+
+/* line 268, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_tariffs.scss */
+.gas-base-page .text-page__body ul {
+  padding-bottom: 50px; }
+
+/* line 273, /Users/BlindBard/projects/energy-trade/source/stylesheets/partials/_tariffs.scss */
+.gas-base-page table {
+  margin-bottom: 50px; }
