@@ -2152,66 +2152,62 @@ a:hover {
     top: 27.7%; }
   /* line 90, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-3 {
-    left: 50.75%;
-    top: 36.8%; }
-  /* line 94, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
-  .area-dot.a-4 {
     left: 55.5%;
     top: 34.8%; }
-  /* line 98, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 96, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  .area-dot.a-4 {
+    left: 55.5%;
+    top: 22.8%; }
+  /* line 100, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-5 {
     left: 69%;
     top: 37%; }
-  /* line 102, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 104, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-6 {
     left: 87.5%;
     top: 47.35%; }
-  /* line 106, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 108, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-7 {
     left: 95%;
     top: 59.45%; }
-  /* line 110, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 112, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-8 {
-    left: 65%;
-    top: 56%; }
-  /* line 114, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
-  .area-dot.a-16 {
     left: 70.5%;
     top: 53.7%; }
-  /* line 118, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 122, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-9 {
     left: 74%;
     top: 67.6%; }
-  /* line 122, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 126, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-10 {
     left: 62.4%;
     top: 74.8%; }
-  /* line 126, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 130, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-11 {
     left: 29%;
     top: 33.5%; }
-  /* line 130, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 134, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-12 {
     left: 14.5%;
     top: 26.5%; }
-  /* line 134, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 138, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-13 {
     left: 47.3%;
     top: 40.45%; }
-  /* line 138, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 142, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-14 {
     left: 48.5%;
     top: 49%; }
-  /* line 142, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 146, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .area-dot.a-15 {
     left: 47.5%;
     top: 59.5%; }
 
-/* line 148, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+/* line 152, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
 .region-info {
   display: none;
   visibility: hidden; }
-  /* line 151, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
+  /* line 155, /Users/admin/Works/energy-trade/source/stylesheets/partials/_area_map.scss */
   .region-info.visible {
     display: block;
     visibility: visible; }
