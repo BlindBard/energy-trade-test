@@ -5685,65 +5685,6 @@ return $;
 
 }));
 (function() {
-  $(function() {
-    var $area, area;
-    $('.js-area-dot').tooltipster({
-      delay: 100,
-      theme: 'custom-tooltip',
-      maxWidth: 260,
-      contentAsHTML: true,
-      interactive: true,
-      trigger: 'click'
-    });
-    area = $('.js-office-link.active').data('area');
-    $area = $('.a-' + area);
-    $area.addClass('active');
-    $(".js-area").hover((function() {
-      area = $(this).data('area');
-      $area = $('.a-' + area);
-      return $area.tooltipster('open');
-    }), function() {
-      area = $(this).data('area');
-      $area = $('.a-' + area);
-      return $area.tooltipster('close');
-    });
-    $(".js-area").on('click', function(e) {
-      var $info;
-      e.preventDefault();
-      area = $(this).data('area');
-      $area = $('.a-' + area);
-      $info = $('.info-' + area);
-      $('.js-area-dot').removeClass('active');
-      $('.region-info').removeClass('visible');
-      $area.addClass('active');
-      return $info.addClass('visible');
-    });
-    $('.js-scroll-menu-link').on('click', function(e) {
-      var destination, id;
-      e.preventDefault();
-      id = $(this).attr('href');
-      destination = $(id).offset().top;
-      return $('html, body').animate({
-        scrollTop: destination
-      }, 1100);
-    });
-    return $('.toggle').click(function(e) {
-      var $this;
-      e.preventDefault();
-      $this = $(this);
-      if ($this.next().hasClass('show')) {
-        $this.removeClass('active');
-        $this.next().removeClass('show');
-        return $this.next().slideUp(350);
-      } else {
-        $('.inner').removeClass('show');
-        $('.inner').slideUp(350);
-        $('.toggle').removeClass('active');
-        $this.next().addClass('show');
-        $this.next().slideDown(350);
-        return $this.addClass('active');
-      }
-    });
-  });
+  $(function() {});
 
 }).call(this);
